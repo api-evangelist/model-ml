@@ -49,7 +49,7 @@ tags:
 - Company
 - Fintech
 - Artificial Intelligence
-- Financial-Services
+- Financial Services
 - AI Agents
 - Investment Banking
 - Enterprise
@@ -63,6 +63,7 @@ tags_raw:
 - Investment Banking
 - Enterprise
 - Document Automation
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
