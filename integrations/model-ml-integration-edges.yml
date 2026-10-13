@@ -1,16 +1,32 @@
 generated: '2026-10-12'
-method: none
+method: searched
 source:
 - https://zapier.com/apps/model-ml/integrations
 - https://n8n.io/integrations/model-ml/
 - https://composio.dev/toolkits/model-ml
 - https://monid.ai/tools/model-ml
 checked:
+- https://azuremarketplace.microsoft.com/
 - https://composio.dev/toolkits/model-ml
 - https://monid.ai/tools/model-ml
 - https://n8n.io/integrations/model-ml/
 - https://zapier.com/apps/model-ml/integrations
 summary: null
 marketplace_apps: []
-edges: []
+edges:
+- partner_name: Microsoft Azure Marketplace
+  partner: microsoft-azure
+  partner_match: aggregator
+  type: marketplace
+  marketplace: azure-marketplace
+  channel: distribution
+  relationship: platform-app
+  direction: provider-built
+  evidence: https://azuremarketplace.microsoft.com/en-us/marketplace/apps?search=Model%20ML
+  listing_count: 1
+  apps:
+  - ModelML
+  seller_name: Model ML
+  detected_by: sweep-cloud-marketplaces.py
+  detected: '2026-10-13'
 templates: []
