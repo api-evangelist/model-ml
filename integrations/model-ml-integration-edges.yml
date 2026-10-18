@@ -11,6 +11,7 @@ checked:
 - https://monid.ai/tools/model-ml
 - https://n8n.io/integrations/model-ml/
 - https://zapier.com/apps/model-ml/integrations
+- zoom/integrations/zoom-integration-edges.yml
 summary: null
 marketplace_apps: []
 edges:
@@ -29,4 +30,21 @@ edges:
   seller_name: Model ML
   detected_by: sweep-cloud-marketplaces.py
   detected: '2026-10-13'
+- partner_name: Zoom (own)
+  partner: zoom
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://marketplace.zoom.us/apps/pFYNA_FRSm-K2acTDp6wDg
+  mirror_of: zoom/integrations/zoom-integration-edges.yml
+  apps:
+  - ModelML Notetaker
+  listing_count: 1
+  detected: '2026-10-18'
+  detected_by: mirror-platform-listings.py
+  category: Zoom app
 templates: []
